@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TO-DO-LIST</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hedvig+Letters+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+    <article class="grid">
+        <h1 class="title">TO DO LIST</h1>
+        <div>
+            <ul>
+                <li class="todo">To do</li>
+                <li class="inprogress">In progress</li>
+                <li class="completed">Completed</li>
+            </ul>
+        </div>
+        <div class="taskcontainer" id="taskcontainer">
+            <div>
+            <p class="addtask" id="addtask" onclick="addtask()">+ Add task</p>
+            </div>
+        </div>
+    </article>
+</body>
+</html>

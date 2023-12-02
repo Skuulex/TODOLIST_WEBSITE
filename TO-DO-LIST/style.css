@@ -1,0 +1,62 @@
+body{
+    font-family: 'Hedvig Letters Sans', sans-serif;
+    background: #4B3B40;
+}
+
+ul{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.grid{
+    display: grid;
+    place-items: center;
+}
+
+.title{
+    margin: auto;
+    font-size: 50px;
+    color: wheat;
+}
+
+.taskcontainer{
+    border: wheat 2px solid;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.addtask{
+    text-align: center;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    color: wheat;
+}
+
+.Del{
+    cursor: pointer;
+    color: wheat;
+    font-size: 10px;
+}
+
+.T{
+    cursor: pointer;
+    color: wheat;
+    font-size: 10px;
+}
+
+.todo{
+    cursor: pointer;
+    color: #D1F5BE;
+}
+
+.inprogress{
+    cursor: pointer;
+    color: #9CDE9F;
+}
+
+.completed{
+    cursor: pointer;    
+    color: #9DB17C;
+}
